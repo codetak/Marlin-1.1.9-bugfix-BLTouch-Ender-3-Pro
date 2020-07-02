@@ -782,7 +782,7 @@
 #define Z_PROBE_OFFSET_FROM_EXTRUDER -2.85   // Z offset: -below +above  [the nozzle]
 
 // Certain types of probes need to stay away from edges
-#define MIN_PROBE_EDGE 43 // Default is 20 - It must be greater than or equal to the higher of the X_PROBE_OFFSET_FROM_EXTRUDER and Y_PROBE_OFFSET_FROM_EXTRUDER
+#define MIN_PROBE_EDGE 50 // Default is 20 - It must be greater than or equal to the higher of the X_PROBE_OFFSET_FROM_EXTRUDER and Y_PROBE_OFFSET_FROM_EXTRUDER
 
 // X and Y axis travel speed (mm/m) between probes
 #define XY_PROBE_SPEED 8000
