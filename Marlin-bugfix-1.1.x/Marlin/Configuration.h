@@ -779,7 +779,7 @@
  */
 #define X_PROBE_OFFSET_FROM_EXTRUDER -43  // X offset: -left  +right  [of the nozzle]
 #define Y_PROBE_OFFSET_FROM_EXTRUDER -9  // Y offset: -front +behind [the nozzle]
-#define Z_PROBE_OFFSET_FROM_EXTRUDER -2.87   // Z offset: -below +above  [the nozzle] - Greater value moves nozzle close to the bed
+#define Z_PROBE_OFFSET_FROM_EXTRUDER -2.85   // Z offset: -below +above  [the nozzle] - Greater value moves nozzle close to the bed
 
 // Certain types of probes need to stay away from edges
 #define MIN_PROBE_EDGE 50 // Default is 20 - It must be greater than or equal to the higher of the X_PROBE_OFFSET_FROM_EXTRUDER and Y_PROBE_OFFSET_FROM_EXTRUDER
@@ -1508,7 +1508,7 @@
 // If you have a speaker that can produce tones, enable it here.
 // By default Marlin assumes you have a buzzer with a fixed frequency.
 //
-#define SPEAKER
+//#define SPEAKER //should be commented out when BLTOUCH is Enabled
 
 //
 // The duration and frequency for the UI feedback sound.
