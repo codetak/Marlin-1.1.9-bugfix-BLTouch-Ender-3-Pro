@@ -777,9 +777,18 @@
  *      O-- FRONT --+
  *    (0,0)
  */
+
+/**
+ * Probing procedure:
+ * 1. Auto Home
+ * 2. Move Z axis towards bed till you have some drag on the paper
+ * 3. Change offset and save to EEPROM
+ * 4. Bed Level and save to EEPROM
+ * 5. Repeat if needed till have some drag on Moved Z Axis to Absolute 0.0
+ */
 #define X_PROBE_OFFSET_FROM_EXTRUDER -43  // X offset: -left  +right  [of the nozzle]
 #define Y_PROBE_OFFSET_FROM_EXTRUDER -9  // Y offset: -front +behind [the nozzle]
-#define Z_PROBE_OFFSET_FROM_EXTRUDER -2.87   // Z offset: -below +above  [the nozzle] - Greater(negative) value moves nozzle close to the bed
+#define Z_PROBE_OFFSET_FROM_EXTRUDER -2.94   // Z offset: -below +above  [the nozzle] - Greater(negative) value moves nozzle close to the bed
 
 // Certain types of probes need to stay away from edges
 #define MIN_PROBE_EDGE 50 // Default is 20 - It must be greater than or equal to the higher of the X_PROBE_OFFSET_FROM_EXTRUDER and Y_PROBE_OFFSET_FROM_EXTRUDER
