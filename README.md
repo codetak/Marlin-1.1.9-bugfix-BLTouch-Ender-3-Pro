@@ -5,4 +5,4 @@ This is an effort to fit original Marlin 1.1.9-bugfix with BLTouch v3.1 on Creal
 
 Use it at your own risk.
 
-Compiler flags need to be changed to fit latest features
+Compiler flags need to be changed to fit latest features available at platform.local.txt file(for Arduino IDE)
